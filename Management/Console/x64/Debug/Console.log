@@ -1,0 +1,22 @@
+﻿빌드 시작: 2015-12-15 오후 8:47:37
+     1>3 노드의 "C:\workspace\Game_Server\Management\Console\Console.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../SDK/include /I"../../SDK/libex/gperftools-wip-issue-610/src/windows/gperftools" /I../Libs /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"C:\workspace\Game_Server\Management\Console\x64\Debug\Console.pch" /Fo"C:\workspace\Game_Server\Management\Console\x64\Debug\\" /Fd"C:\workspace\Game_Server\Management\Console\x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../SDK/include /I"../../SDK/libex/gperftools-wip-issue-610/src/windows/gperftools" /I../Libs /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"C:\workspace\Game_Server\Management\Console\x64\Debug\Console.pch" /Fo"C:\workspace\Game_Server\Management\Console\x64\Debug\\" /Fd"C:\workspace\Game_Server\Management\Console\x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Console.cpp
+         Console.cpp
+         import proactor_x64_mdd
+         import taskscheduler_x64_mdd
+         import thread_x64_mdd
+         import generic_x64_mdd
+         import tcmalloc
+         import libtcmalloc_minimal-debug
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspace\Game_Server\Management\Console\..\..\Bin64\Console.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../SDK/libs/x64 /LIBPATH:"../../SDK/libex/maria-connector-c-2.0/lib/x64" /LIBPATH:"../../SDK/libex/gperftools-wip-issue-610/x64/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\workspace\Game_Server\Management\Console\..\..\Bin64\Console.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\workspace\Game_Server\Management\Console\..\..\Bin64\Console.lib" /MACHINE:X64 C:\workspace\Game_Server\Management\Console\x64\Debug\Console.obj
+         C:\workspace\Game_Server\Management\Console\x64\Debug\stdafx.obj
+         Console.vcxproj -> C:\workspace\Game_Server\Management\Console\..\..\Bin64\Console.exe
+     1>"C:\workspace\Game_Server\Management\Console\Console.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.69

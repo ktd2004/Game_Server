@@ -1,0 +1,5 @@
+shutdown user-PC GtwS
+sleep 2000
+shutdown user-PC ChnS
+sleep 2000
+shutdown user-PC MstS

@@ -1,0 +1,9 @@
+C:\workspace\Game_Server\Servers_Summon\Tools\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
+C:\workspace\Game_Server\Servers_Summon\Tools\Tester\obj\Debug\Tester.MainForm.resources
+C:\workspace\Game_Server\Servers_Summon\Tools\Tester\obj\Debug\Tester.Properties.Resources.resources
+C:\workspace\Game_Server\Servers_Summon\Tools\Tester\obj\Debug\Tester.csproj.GenerateResource.Cache
+C:\workspace\Game_Server\Servers_Summon\Tools\Bin\Tester.exe.config
+C:\workspace\Game_Server\Servers_Summon\Tools\Bin\Tester.exe
+C:\workspace\Game_Server\Servers_Summon\Tools\Bin\Tester.pdb
+C:\workspace\Game_Server\Servers_Summon\Tools\Tester\obj\Debug\Tester.exe
+C:\workspace\Game_Server\Servers_Summon\Tools\Tester\obj\Debug\Tester.pdb

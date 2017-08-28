@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MariaDB">
+      <UniqueIdentifier>{61e64985-177e-4345-b1f2-20403cac20f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\DBCommand.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\DBProvider.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\DBResult.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\DBValue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\Protocol_Provider.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_base.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_config.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_dir.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_global.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_list.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_net.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_no_pthread.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_pthread.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_stmt.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_sys.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_com.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_io.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_mm.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_priv.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_version.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_wireprotocol.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysqld_error.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysys_err.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\sha1.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\thr_alarm.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\violite.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\config-win.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\dbug.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\errmsg.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\getopt.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\global.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\hash.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\m_ctype.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\m_string.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\ma_common.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\ma_dyncol.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\ma_secure.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_alarm.h">
+      <Filter>MariaDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\ProxyProvider.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Provider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryQueue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryResultHelper.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBCommand.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBProvider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBResult.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBValue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLEngine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyProvider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteProvider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigUtil.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

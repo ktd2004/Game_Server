@@ -1,0 +1,13 @@
+﻿빌드 시작: 2015-11-05 오전 11:05:55
+     1>2 노드의 "D:\Workspace\Game_Server\Servers_Summon\Auth\Auth.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\Game_Server\Servers_Summon\Auth\..\..\Bin64\Gateway_x64_D.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../SDK/libs/x64 /LIBPATH:"../../SDK/libex/gperftools-wip-issue-610/x64/Debug" /LIBPATH:"../../SDK/libex/maria-connector-c-2.0/lib/x64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Workspace\Game_Server\Servers_Summon\Auth\..\..\Bin64\Gateway_x64_D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspace\Game_Server\Servers_Summon\Auth\..\..\Bin64\Gateway_x64_D.lib" /MACHINE:X64 D:\Workspace\Game_Server\Servers_Summon\Auth\x64\Debug\Gateway.obj
+         D:\Workspace\Game_Server\Servers_Summon\Auth\x64\Debug\GatewayApp.obj
+         D:\Workspace\Game_Server\Servers_Summon\Auth\x64\Debug\ClientHandler.obj
+         D:\Workspace\Game_Server\Servers_Summon\Auth\x64\Debug\stdafx.obj
+         Auth.vcxproj -> D:\Workspace\Game_Server\Servers_Summon\Auth\..\..\Bin64\Gateway_x64_D.exe
+     1>"D:\Workspace\Game_Server\Servers_Summon\Auth\Auth.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.65

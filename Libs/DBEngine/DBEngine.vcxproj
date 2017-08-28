@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6D07BC63-2196-4174-9D05-E6AC098CB31B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DBEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)..\..\SDK\libs\x86\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_x86_mdd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(ProjectDir)$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_x64_mdd</TargetName>
+    <OutDir>$(ProjectDir)..\..\SDK\libs\x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)..\..\SDK\libs\x86\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_x86_md</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)..\..\SDK\libs\x64\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_x64_md</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../SDK/include;../../SDK/libex/maria-connector-c-2.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)dbengine_x86_mdd.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../SDK/include;../../SDK/libex/maria-connector-c-2.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)dbengine_x64_mdd.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../SDK/include;../../SDK/libex/maria-connector-c-2.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)dbengine_x86_md.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../SDK/include;../../SDK/libex/maria-connector-c-2.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)dbengine_x64_md.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SDK\include\DBCommand.h" />
+    <ClInclude Include="..\..\SDK\include\DBProvider.h" />
+    <ClInclude Include="..\..\SDK\include\DBResult.h" />
+    <ClInclude Include="..\..\SDK\include\DBValue.h" />
+    <ClInclude Include="..\..\SDK\include\Protocol_Provider.h" />
+    <ClInclude Include="..\..\SDK\include\ProxyProvider.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\config-win.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\dbug.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\errmsg.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\getopt.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\global.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\hash.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\ma_common.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\ma_dyncol.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\ma_secure.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysqld_error.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_com.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_io.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_mm.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_priv.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_version.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysql_wireprotocol.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\mysys_err.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_alarm.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_base.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_config.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_dir.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_global.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_list.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_net.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_no_pthread.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_pthread.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_stmt.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\my_sys.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\m_ctype.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\m_string.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\sha1.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\thr_alarm.h" />
+    <ClInclude Include="..\..\SDK\libex\maria-connector-c-2.0\include\violite.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConfigUtil.cpp" />
+    <ClCompile Include="DBCommand.cpp" />
+    <ClCompile Include="DBProvider.cpp" />
+    <ClCompile Include="DBResult.cpp" />
+    <ClCompile Include="DBValue.cpp" />
+    <ClCompile Include="MySQLEngine.cpp" />
+    <ClCompile Include="Protocol_Provider.cpp" />
+    <ClCompile Include="ProxyProvider.cpp" />
+    <ClCompile Include="Query.cpp" />
+    <ClCompile Include="QueryQueue.cpp" />
+    <ClCompile Include="QueryResultHelper.cpp" />
+    <ClCompile Include="RemoteProvider.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+Libs\P2P\P2PLib.vcxproj
+Libs\Rendezvous\RendezvousLib.vcxproj
+Libs\RendezvousEx\RendezvousEx.vcxproj
+Libs\Generic\GenericLib.vcxproj
+Libs\Thread\ThreadLib.vcxproj
+Libs\TaskScheduler\TaskSchedulerLib.vcxproj
+Libs\Proactor\ProactorLib.vcxproj
+Libs\Process\ProcessLib.vcxproj
+Libs\DBEngine\DBEngine.vcxproj
+Libs\PdhMonitor\PdhMonitor.vcxproj
+Libs\Compressor\Compressor.vcxproj
+Libs\ServerApp\ServerApp.vcxproj
+Management\Libs\AgentUtil.vcxproj

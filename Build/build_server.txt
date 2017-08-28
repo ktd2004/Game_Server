@@ -1,0 +1,4 @@
+Servers\Libs\AAA.vcxproj
+Servers\Gateway\Gateway.vcxproj
+Servers\Master\Master.vcxproj
+Servers\Channel\Channel.vcxproj
